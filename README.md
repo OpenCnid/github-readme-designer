@@ -137,6 +137,7 @@ The audit is dependency-free and intentionally complements—rather than replace
 ```text
 github-readme-designer/
 ├── .github/assets/                  # Repository-owned neon visuals
+├── AGENTS.md                        # Durable guidance for coding agents
 ├── SKILL.md                         # Core workflow and guardrails
 ├── agents/
 │   └── openai.yaml                  # Optional Codex UI metadata
