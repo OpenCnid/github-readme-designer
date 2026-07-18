@@ -5,7 +5,11 @@
 <h1 align="center">GitHub README Designer</h1>
 
 <p align="center">
-  A portable Agent Skill for designing the part of a repository people see first.
+  <strong>Design the first third. Hook the eye. Earn the scroll.</strong>
+</p>
+
+<p align="center">
+  A portable Agent Skill for turning GitHub READMEs into intentional, repository-specific landing experiences.
 </p>
 
 <p align="center">
@@ -17,10 +21,10 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-6E56CF?style=flat-square"></a>
-  <a href="https://agentskills.io"><img alt="Agent Skills compatible" src="https://img.shields.io/badge/Agent%20Skills-compatible-0A7C66?style=flat-square"></a>
-  <img alt="Python 3.9 or newer" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square">
-  <img alt="Zero runtime dependencies" src="https://img.shields.io/badge/runtime%20dependencies-0-DA7756?style=flat-square">
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/LICENSE-MIT-FF2BD6?style=for-the-badge&labelColor=120726"></a>
+  <a href="https://agentskills.io"><img alt="Agent Skills compatible" src="https://img.shields.io/badge/AGENT_SKILLS-COMPATIBLE-00F5FF?style=for-the-badge&labelColor=081B2D"></a>
+  <img alt="Python 3.9 or newer" src="https://img.shields.io/badge/PYTHON-3.9%2B-9D4EDD?style=for-the-badge&labelColor=160B2D">
+  <img alt="Zero runtime dependencies" src="https://img.shields.io/badge/DEPENDENCIES-0-39FF88?style=for-the-badge&labelColor=08251B">
 </p>
 
 ## The README is part of the product
@@ -57,24 +61,9 @@ These are composition systems, not fill-in-the-blank templates. The same visual 
 
 ## The workflow
 
-```text
-Inspect the repository
-        │
-        ▼
-Define audience + first impression
-        │
-        ▼
-Choose a project-specific composition
-        │
-        ▼
-Design the opening viewport + first third
-        │
-        ▼
-Create or refine repository-owned assets
-        │
-        ▼
-Render, audit, and iterate
-```
+<p align="center">
+  <img src=".github/assets/neon-workflow.svg" alt="Workflow from repository scan through visual direction, first-third design, asset creation, and rendered quality assurance" width="100%">
+</p>
 
 The skill inspects the current README, repository metadata, screenshots, logos, demos, and existing visual identity before choosing a direction. It does not reach for a generic banner first.
 
@@ -147,6 +136,7 @@ The audit is dependency-free and intentionally complements—rather than replace
 
 ```text
 github-readme-designer/
+├── .github/assets/                  # Repository-owned neon visuals
 ├── SKILL.md                         # Core workflow and guardrails
 ├── agents/
 │   └── openai.yaml                  # Optional Codex UI metadata
