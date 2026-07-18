@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub README Designer"
+  short_description: "Design high-impact GitHub README layouts"
+  default_prompt: "Use $github-readme-designer to redesign the visual layout and opening viewport of this repository README."
