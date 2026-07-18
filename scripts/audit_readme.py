@@ -34,7 +34,9 @@ def audit(path: Path) -> list[tuple[str, str]]:
     lines = text.splitlines()
     results: list[tuple[str, str]] = []
 
-    h1_count = len(re.findall(r"^#\s+\S", text, re.M))
+    markdown_h1 = len(re.findall(r"^#\s+\S", text, re.M))
+    html_h1 = len(re.findall(r"<h1\b[^>]*>.*?</h1>", text, re.I | re.S))
+    h1_count = markdown_h1 + html_h1
     if h1_count != 1:
         add(results, "WARN", f"Expected one Markdown H1; found {h1_count}.")
 
