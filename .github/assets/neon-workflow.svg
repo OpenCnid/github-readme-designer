@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub README Designer workflow</title>
+  <desc id="desc">Five neon stages connect repository scanning to visual direction, first-third design, asset creation, and rendered quality assurance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090514"/><stop offset="1" stop-color="#06151A"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF2BD6"/><stop offset="0.5" stop-color="#9D4EDD"/><stop offset="1" stop-color="#00E5FF"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#A855F7" stroke-opacity="0.08"/></pattern>
+  </defs>
+  <rect width="1280" height="300" rx="26" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="26" fill="url(#grid)"/>
+  <text x="48" y="52" fill="#B9A8D4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="3">FROM REPOSITORY TO FIRST IMPRESSION</text>
+  <path d="M142 166H1138" stroke="url(#line)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <g transform="translate(142 166)">
+      <circle r="34" fill="#160A25" stroke="#FF2BD6" stroke-width="2"/>
+      <circle r="8" fill="#FF2BD6" filter="url(#glow)"/>
+      <text y="68" fill="#FFFFFF" font-size="15" font-weight="700">SCAN</text><text y="90" fill="#89799F" font-size="12">repo + assets</text>
+    </g>
+    <g transform="translate(391 166)">
+      <circle r="34" fill="#160D29" stroke="#C026D3" stroke-width="2"/>
+      <path d="M-10 2l7 7 15-18" fill="none" stroke="#E879F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="68" fill="#FFFFFF" font-size="15" font-weight="700">DIRECT</text><text y="90" fill="#89799F" font-size="12">visual system</text>
+    </g>
+    <g transform="translate(640 166)">
+      <circle r="40" fill="#11102A" stroke="#9D4EDD" stroke-width="3" filter="url(#glow)"/>
+      <path d="M-14-10h28M-14 0h22M-14 10h16" stroke="#D8B4FE" stroke-width="3" stroke-linecap="round"/>
+      <text y="74" fill="#FFFFFF" font-size="15" font-weight="700">FIRST THIRD</text><text y="96" fill="#9A8DAF" font-size="12">identity + proof</text>
+    </g>
+    <g transform="translate(889 166)">
+      <circle r="34" fill="#071B28" stroke="#00B8D4" stroke-width="2"/>
+      <rect x="-12" y="-12" width="24" height="24" rx="4" fill="none" stroke="#67E8F9" stroke-width="2"/>
+      <path d="M-7 5l6-7 5 5 4-4 4 6" fill="none" stroke="#67E8F9" stroke-width="2"/>
+      <text y="68" fill="#FFFFFF" font-size="15" font-weight="700">ASSETS</text><text y="90" fill="#7896A3" font-size="12">svg + screenshots</text>
+    </g>
+    <g transform="translate(1138 166)">
+      <circle r="34" fill="#052219" stroke="#39FF88" stroke-width="2"/>
+      <path d="M-12 0l8 8 17-18" fill="none" stroke="#86FFB4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="68" fill="#FFFFFF" font-size="15" font-weight="700">RENDER + QA</text><text y="90" fill="#729585" font-size="12">iterate</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="298" rx="25" fill="none" stroke="url(#line)" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
